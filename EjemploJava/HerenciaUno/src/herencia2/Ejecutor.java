@@ -1,22 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package herencia2;
 import herencia1.EstudiantePresencial;
 import herencia1.EstudianteDistancia;
-/**
- *
- * @author reroes
- */
+
 public class Ejecutor {
     
     public static void main(String[] args) {
         // Objeto de tipo Estudiante Presencial
         EstudiantePresencial e1 = new EstudiantePresencial();
         
-        e1.establecerNombresEstudiante("René Rolando");
+        e1.establecerNombresEstudiante("Rene Rolando");
         e1.establecerApellidoEstudiante("Elizalde Solano");
         e1.establecerIdentificacionEstudiante("1104111111");
         e1.establecerEdadEstudiante(38);
